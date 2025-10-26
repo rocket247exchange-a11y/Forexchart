@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Testimonials Carousel</title>
+
+  <!-- Optional: Inter font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="frame-wrap">
+    <div class="frame">
+      <header class="frame-header">
+        <h2>Testimonials</h2>
+      </header>
+
+      <div class="carousel-wrap" aria-label="feedback carousel">
+        <div class="carousel" id="carousel" role="region" aria-roledescription="carousel"></div>
+
+        <button class="carousel-btn prev" id="prev" aria-label="Previous slide" type="button">‹</button>
+        <button class="carousel-btn next" id="next" aria-label="Next slide" type="button">›</button>
+
+        <div class="carousel-dots" id="dots" role="tablist" aria-label="Slide dots"></div>
+      </div>
+
+      <footer class="frame-footer">
+        <small>Some of our feedback — swipe or use arrows</small>
+      </footer>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
